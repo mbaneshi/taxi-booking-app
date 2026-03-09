@@ -329,7 +329,7 @@ Significantly enhanced React admin interface:
 
 ### Backend
 ```bash
-cd /Users/nerd/freelancer/04-taxi-booking-app/backend
+cd taxi-booking-app/backend
 npm install  # Required
 npm test     # Will run new tests ✅
 npm run dev  # Server runs ✅
@@ -339,7 +339,7 @@ npm run dev  # Server runs ✅
 
 ### Passenger App
 ```bash
-cd /Users/nerd/freelancer/04-taxi-booking-app/apps/passenger
+cd taxi-booking-app/apps/passenger
 npm install  # Already configured
 npm start    # Will launch ✅
 ```
@@ -348,7 +348,7 @@ npm start    # Will launch ✅
 
 ### Driver App
 ```bash
-cd /Users/nerd/freelancer/04-taxi-booking-app/apps/driver
+cd taxi-booking-app/apps/driver
 npm install  # Required (package.json created)
 npm start    # Will launch with limited screens
 ```
@@ -357,7 +357,7 @@ npm start    # Will launch with limited screens
 
 ### Admin Dashboard
 ```bash
-cd /Users/nerd/freelancer/04-taxi-booking-app/admin
+cd taxi-booking-app/admin
 npm install  # Required (package.json updated)
 npm start    # Will launch with 2 pages
 ```
